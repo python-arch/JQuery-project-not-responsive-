@@ -1,0 +1,472 @@
+::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #999;
+    text-transform: capitalize;
+}
+*{
+    
+}
+/*start my framework*/
+.container {
+    width: 1050px;
+    margin: auto;
+}
+.hidden {
+    display: none;
+}
+.text-center {
+    text-align: center;
+}
+.table-row{
+    display: table-row;
+}
+.upper {
+    text-transform: uppercase;
+}
+.main-color{
+    color: #f7600e;
+}
+.main-background {
+    background-color: #f7600e;
+}
+.table{
+    height: 100%;
+    display: table;
+}
+.overlay {
+    background: rgba(49,55,61,0.9);
+    width: 100%;
+    height: 100%;
+}
+/*end my frame work*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 3000px;
+}
+/*start header*/
+.header{
+    background-image: url('../images/back.jpg');
+    background-size: cover;
+    color: #FFF;
+    width: 100%;
+}
+.header .buttons button {
+    color: #FFF;
+    background: transparent;
+    padding: 10px 0;
+    width: 180px;
+    font-size: 14px;
+    border: 1px solid #909090;
+    margin: 0 8px;
+    border-radius: 10px;
+    transition: .5s all ease-in-out;
+}
+.header .buttons button:hover {
+    background-color: #f7600e;
+        border: 1px solid #f7600e;
+color: #FFF;
+}
+.header .navbar {
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    width: 90%;
+}
+.header .navbar .links {
+    float: right;
+}
+.header .navbar .logo {
+    font-size: 24px;
+}
+.header .navbar .links .bars {
+  margin-left: 5px;
+}
+.header .intro h1 {
+    margin: 0px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.header .intro p {
+    margin: 5px 0 40px;
+    line-height: 1.8;
+    font-size: 20px;
+    color: #E2E2E2;
+}
+.header .arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+}
+.header .arrow .arrow-icon {
+    border: 2px solid #E2E2E2;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+/*end header*/
+/*start features*/
+
+.features{
+    padding: 70px 0;
+    overflow: hidden;
+}
+.box{
+width: 20%;
+    float: left;
+    margin-right: 5%;
+    line-height: 1.46;
+}
+.box:last-child {
+ margin-right: 0;  
+}
+.box .icon-f {
+    border: 1.3px solid #E2E2E2;
+    border-radius: 50%;
+    padding: 25px;
+    height: 73px;
+    width: 73px;
+    transition: all .6s ease-in-out;
+}
+.box .icon-f:hover{
+   background-color: #f7600e;
+    color: #FFF;
+     border: 1.3px solid #f7600e;
+}
+.box h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #505050;
+}
+.box p {
+    color : #888;
+    line-height: 1.8;
+}
+/*end features*/
+/*start subscribe*/
+.subscribe {
+    background-image: url(../../sub.jpg);
+    background-size: cover;
+    color: #FFF;
+}
+.subscribe form {
+    padding: 100px 0;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.subscribe form input {
+    height: 37px;
+    line-height: 37px;
+    padding: 0 12px;
+    width: 320px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 2.4px;
+    border: none;
+    font-style: italic;
+}
+.subscribe form button{
+    padding: 10px;
+    width: 200px;
+    background-color: #f7600e;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+/*end subscribe*/
+/*start my work*/
+.work {
+    padding: 50px 0;
+}
+.work .items-box .item{
+    height: 300px;
+    width: 32%;
+    float: left;
+    overflow: hidden;
+    margin-left: 1.333333%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+}
+.work .items-box .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247,96,14,.8);
+    color: #FFF;
+    transition: all 1s ease-in-out;
+    display: none;
+}
+.work .items-box .item:hover .over{
+    display: block;
+    transition: all .6s ease-in-out;
+}
+.work .items-box .item .over h4{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.work .items-box .item .over p {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    line-height: 2;
+}
+.work .items-box .item .over button{
+    background-color: transparent;
+    border: 1px solid #FFF;
+    width: 180px;
+    padding: 12px;
+    border-radius: 10px;
+    color: #FFF;
+    transition: all .4s ease-in-out;
+}
+.work .items-box .item .over button:hover {
+    color: #f7600e;
+    background-color: #FFF;
+}
+.work h2 {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.work h2 ~ p {
+    line-height: 2;
+    margin : 10px 0 40px;
+}
+.work .show-more {
+    background-color: transparent;
+    border: 1px solid #CCC;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #555;
+    transition: all .3s ease-in-out;
+}
+.work .show-more:hover {
+    background-color: #f7600e;
+    color: #FFF;
+}
+.items-box{
+    overflow: hidden;
+}
+/*end my work*/
+/*Start testimonials*/
+.testim {
+    background-image: url("../images/woman.jpg");
+    background-size: cover;
+}
+.testim .client{
+     padding: 50px 0;
+    color: #FFF;
+    font-size: 20px;
+}
+.testim .client img {
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid #FFF;
+}
+.testim .client p {
+    line-height: 2;
+    font-style: italic;
+}
+.testim .container .arrow {
+    position: relative;
+    bottom: 200px;
+    height: 48px;
+    width: 48px;
+    color: #999;
+    cursor: pointer;
+}
+.testim .container .arrow:hover {
+    color: #f7600e;
+}
+.testim .container .s1 {
+    float: left;
+}
+.testim .container .s2 {
+    float: right;
+}
+/*End testimonials*/
+/*start our team*/
+.our-team {
+    padding: 50px 0;
+}
+.our-team h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.our-team .team-p {
+    margin: 10px 0 40px;
+    line-height: 2;
+    color: #666;
+    font-size: 20px;
+    
+}
+.our-team {
+    width: 100%;
+}
+.our-team .the-team {
+    overflow: hidden;
+}
+.our-team .the-team .person {
+    float: left;
+    width: 24%;
+ overflow: hidden;
+    margin-left: 1%;
+    color: #9da1a5;
+    transition: all .5s ease-in-out;
+}
+.our-team .the-team .person img {
+    width: 265px;
+    height: 290px;
+    filter: gray;
+    filter: grayscale(1);
+    transition: all .5s ease-in-out;
+}
+.our-team .the-team .person:hover img{
+    filter: none;
+    border-bottom: 5px solid #f7600e;
+}
+.our-team .the-team .person:hover {
+color: #555;
+    transform: translateY(-30px)
+}
+.our-team .the-team .person:hover .social .fa-facebook {
+    background-color: #3b5998;
+}
+.our-team .the-team .person:hover .social .fa-twitter {
+    background-color: #55acee;
+}
+.our-team .the-team .person:hover .social .fa-google-plus {
+    background-color: #dc4e41;
+    color: white;
+}
+.our-team .the-team .person .social .social-icon{
+    border-radius: 50%;
+    padding: 4px;
+    color: #FFF;
+    background-color: #9da1a5;
+}
+.our-team .the-team .person p {
+    font-size: 15px;
+}
+/*end our team*/
+/*start contact*/
+.contact {
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+}
+.contact .overlay {
+    padding: 50px 0;
+    color: #FFF;
+}
+.contact .overlay .container form {
+    width: 700px;
+    text-align: center;
+     color: #FFF;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.contact form input[type='text'],.contact form input[type='email'] {
+   width: 48%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,0.99);
+    margin-bottom: 12px;
+}
+.contact form input[type='text'] {
+    float: left;
+}
+.contact form input[type='email'] {
+    float: right;
+}
+.contact form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px 10px 0;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    background-color: rgba(255,255,255,0.99);
+}
+.contact form button {
+    color: #FFF;
+}
+.contact form .info {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.contact form .info .form-icons{
+    float: right;
+}
+.contact form .info button{
+float: left;
+    padding: 10px;
+    width: 200px;
+    background-color: #f7600e;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+ .contact form .info .form-icons .fa-facebook {
+     padding: 2px;
+     border: 1px solid #CCC;
+     border-radius : 8%;
+     height: 22px;
+     width: 22px;
+}
+.contact form .info .form-icons .fa-twitter {
+    padding: 2px;
+    border: 1px solid #CCC;
+    border-radius : 8%;
+    height: 22px;
+    width: 22px;
+    margin-left: 3px;
+  
+}
+ .contact form .info .form-icons .fa-google-plus {
+     padding: 2px;
+     border: 1px solid #CCC;
+     border-radius : 8%;
+     height: 22px;
+     width: 22px;
+     margin-left: 3px;
+}
+/*End contact*/
+/*start footer*/
+.footer {
+    background-color: #3b434c;
+    color: #FFF;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.footer .copyright {
+    float: left;
+}
+.footer .design {
+    float: right;
+}
+/*end footer*/
+                  /* ========================== end the project ======================*/
